@@ -1,0 +1,1352 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<title>Home</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/linea-icon.css" />
+<link rel="stylesheet" href="css/fancy-buttons.css"/>
+
+<!--=== Other CSS files ===-->
+<link rel="stylesheet" href="css/animate.css" />
+<link rel="stylesheet" href="css/jquery.vegas.css" />
+<link rel="stylesheet" href="css/baraja.css" />
+<link rel="stylesheet" href="css/jquery.bxslider.css" />
+
+<!--=== Main Stylesheets ===-->
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+
+<!--=== Color Scheme, three colors are available red.css, orange.css and gray.css ===-->
+<link rel="stylesheet" id="scheme-source" href="css/schemes/gray.css" />
+
+<!--=== Internet explorer fix ===-->
+<!-- [if lt IE 9]>
+<script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif] -->
+
+
+</head>
+<body>
+<!--加载时出现的页面 -->
+<section id="preloader">
+    <div class="loading-circle fa-spin"></div>
+</section>
+
+<!--头部文件/菜单-->
+<div id="header" class="header-section">
+    <!-- sticky-bar Starts-->
+    <div class="sticky-bar-wrap">
+        <div class="sticky-setion">
+            <div id="topbar-hold" class="nav-hold container">
+                <nav class="navbar" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!--=== Site Name ===-->
+                        <a href="javascript:;" class="site-name navbar-brand">
+                            <img src="image/book_r.gif">
+                            BOOKS
+                        </a>
+                    </div>
+                    <!-- Main Navigation menu Starts -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="current"><a href="#header">首页</a></li>
+                            <li><a href="#section-feature">名作</a></li>
+                            <li><a href="#section-services">出版社</a></li>
+                            <li><a href="#section-screenshots">美景</a></li>
+                            <li><a href="#section-testimonails">名家</a></li>
+                            <li><a href="#section-pricing">书城</a></li>
+                            <li><a href="#section-subscribe">广告</a></li>
+                        </ul>
+                    </div>
+                    <!-- Main Navigation menu ends-->
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- sticky-bar Ends-->
+    <!--=== Header section Ends ===-->
+
+    <!--=== Home Section Starts ===-->
+    <div id="section-home" class="home-section-wrap center">
+        <div class="section-overlay"></div>
+        <div class="container home">
+            <div class="row">
+                <h1 class="well-come">励学篇</h1>
+                <div class="col-md-8 col-md-offset-2">
+                    <p class="intro-message">富家不用买良田，书中自有千钟粟。
+                        安居不用架高楼，书中自有黄金屋。
+                        娶妻莫恨无良媒，书中自有颜如玉。
+                        出门莫恨无人随，书中车马多如簇。
+                        男儿欲遂平生志，五经勤向窗前读。</p>
+                    <div class="home-buttons intro_text">
+                        <a href="javascript:;" class="fancy-button button-line button-white vertical">
+                            学到更多
+                            <span class="icon">
+                                <i class="fa fa-gear"></i>
+                            </span>
+                        </a>
+                        <a href="javascript:;" class="fancy-button button-line button-white zoom">
+                            现在下载
+                            <span class="icon">
+                                <i class="fa fa-leaf"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=== Home Section Ends ===-->
+</div>
+
+<!--登录与注册部分-->
+<div id="Login-Right">
+    <div class="container">
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 center">
+            <div class="lg-part">
+                <div class="login-part">
+                    <h1><span>登录</span><a href="javascript:;" id="go-register">注册</a></h1>
+                    <div class="login-area">
+                        <p class="login-uname">
+                            <span class="">用户名:</span>
+                            <input type="text" class="uname">
+                            <i class="name-tipe"></i>
+                        </p>
+                        <hr/>
+                        <p class="login-upwd">
+                            <span>密码:</span>
+                            <input type="password" class="upwd">
+                            <i class="pwd-tipe"></i>
+                        </p>
+                         <hr/>
+                        <button class="btn-danger center goto-lg">登录</button>
+                    </div>
+                </div>
+                <div class="register-part">
+                    <h1><span>注册</span><a href="javascript:;" id="go-login">登录</a></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 书籍展开的轮播-->
+<section id="section-feature" class="feature-wrap">
+    <div class="container features center">
+        <div class="row">
+            <div class="col-lg-12">
+                <!--Features container Starts -->
+                <ul id="card-ul" class="features-hold baraja-container">
+                    <li class="single-feature" title="笺谱日历2018年">
+                        <img src="image/lunbo/1.jpg" >
+                        <h4 class="feature-title color-sheme">笺谱日历2018年</h4>
+                        <p class="feature-text">由“中国最美的书”获得者刘运来设计装帧，还附精美藏书票一枚和中图专享宣纸印制笺纸5……</p>
+                        <a href="javascript:;"  class="fancy-button button-line btn-col small vertical">
+                            更多
+                            <span class="icon">
+                                <i class="fa fa-leaf"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="single-feature" title="中国全史演义">
+                        <img src="image/lunbo/2.jpg" class="feature-image">
+                        <h4 class="feature-title color-sheme">中国全史演义</h4>
+                        <p class="feature-text">“一代史家，千秋神笔”蔡东藩经典长篇历史演义小说《蔡东藩说中国史》全34册……</p>
+                        <a href="javascript:;"  class="fancy-button button-line btn-col small vertical">
+                            更多
+                            <span class="icon">
+                                <i class="fa fa-leaf"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="single-feature" title="历代书法名帖精选">
+                        <img src="image/lunbo/3.jpg" class="feature-image">
+                        <h4 class="feature-title color-sheme">历代书法名帖精选</h4>
+                        <p class="feature-text">精选王羲之、释怀素、王询、黄庭坚等历代名家名帖及汉碑、魏碑中的代表作……</p>
+                        <a href="javascript:;"  class="fancy-button button-line btn-col small vertical">
+                            更多
+                            <span class="icon">
+                                <i class="fa fa-leaf"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="single-feature" title="宝宝心理成长绘本">
+                        <img src="image/lunbo/4.jpg" class="feature-image">
+                        <h4 class="feature-title color-sheme">宝宝心理成长绘本</h4>
+                        <p class="feature-text">由欧洲儿童心理健康教育专家卡特琳.多尔托博士主编，知名童书作家及国际插画家共同打造……</p>
+                        <a href="javascript:;"  class="fancy-button button-line btn-col small vertical">
+                            更多
+                            <span class="icon">
+                                <i class="fa fa-leaf"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="single-feature" title="佛罗伦萨与托斯卡纳">
+                        <img src="image/lunbo/5.jpg" class="feature-image">
+                        <h4 class="feature-title color-sheme">佛罗伦萨与托斯卡纳</h4>
+                        <p class="feature-text">本书以1000余幅高保真图片，立体展现了意大利的托斯卡纳和其首府佛罗伦萨优美的风貌……</p>
+                        <a href="javascript:;"  class="fancy-button button-line btn-col small vertical">
+                            更多
+                            <span class="icon">
+                                <i class="fa fa-leaf"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="single-feature" title="Ajax contact form">
+                        <img src="image/lunbo/6.jpg" class="feature-image">
+                        <h4 class="feature-title color-sheme">微历史</h4>
+                        <p class="feature-text">《微历史》系列9册，用时下最流行的微博与历史文学相结合的方式叙述，以史料为基础……</p>
+                        <a href="javascript:;"  class="fancy-button button-line btn-col small vertical">
+                            更多
+                            <span class="icon">
+                                <i class="fa fa-leaf"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="single-feature" title="英国引进“童眼看系列”">
+                        <img src="image/lunbo/7.jpg" class="feature-image">
+                        <h4 class="feature-title color-sheme">英国引进“童眼看系列”</h4>
+                        <p class="feature-text">英国引进“童眼看系列”15册，一套畅销全球30多个国家的英国经典少儿百科知识全书……</p>
+                        <a href="javascript:;"  class="fancy-button button-line btn-col small vertical">
+                            更多
+                            <span class="icon">
+                                <i class="fa fa-leaf"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="single-feature" title="Feature heading">
+                        <img src="image/lunbo/8.jpg" class="feature-image">
+                        <h4 class="feature-title color-sheme">九作家比较列传</h4>
+                        <p class="feature-text">本书（2017年新近出版）中茨威格仿照普鲁塔克“比较列传”的写法，描写了……</p>
+                        <a href="javascript:;"  class="fancy-button button-line btn-col small vertical">
+                            更多
+                            <span class="icon">
+                                <i class="fa fa-leaf"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <!--Features container Ends -->
+                <!-- Features Controls Starts -->
+                <div class="features-control relative">
+                    <button class="control-icon fancy-button button-line no-text btn-col bell" id="feature-prev" title="Previous">
+                        <span class="icon">
+                            <i class="fa fa-arrow-left"></i>
+                        </span>
+                    </button>
+                    <button class="control-icon fancy-button button-line no-text btn-col zoom" id="feature-expand" title="Expand">
+                        <span class="icon">
+                            <i class="fa fa-expand"></i>
+                        </span>
+                    </button>
+                    <button class="control-icon fancy-button button-line no-text btn-col zoom" id="feature-close" title="Collapse">
+                        <span class="icon">
+                            <i class="fa fa-compress"></i>
+                        </span>
+                    </button>
+                    <button class="control-icon fancy-button button-line no-text btn-col bell" id="feature-next" title="Next">
+                        <span class="icon">
+                            <i class="fa fa-arrow-right"></i>
+                        </span>
+                    </button>
+                </div>
+                <!-- Features Controls Ends -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--=== 出版社 ===-->
+<section id="section-services" class="services-wrap">
+    <div class="container services">
+        <div class="row">
+            <div class="col-md-12 center section-title">
+                <h3>出版社专区</h3>
+            </div>
+            <div class="col-md-6 col-sm-6 service animated" data-animation="fadeInLeft" data-animation-delay="700">
+                <span class="service-icon center"><i class="icon icon-basic-paperplane fa-3x"></i></span>
+                <div class="service-desc">
+                    <h4 class="service-title color-scheme">人民文学出版社</h4>
+                    <p class="service-description justify">
+                        人民文学出版社以出版高档次高品位文化图书为主，兼顾通俗性读物。注重图书出版的系统性和系列化，力求较全面的反映中国及世界各国的优秀文学成果。已出版图书8000多种，发行近7亿册……
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 service animated" data-animation="fadeInUp" data-animation-delay="700">
+                <span class="service-icon center"><i class="icon icon-basic-accelerator fa-3x"></i></span>
+                <div class="service-desc">
+                    <h4 class="service-title color-scheme">作家出版社</h4>
+                    <p class="service-description justify">
+                        作家出版社是中国作家协会所属国家级大型文学出版社，自1953年建社以来，出版了大量的优秀文学图书，其中有部分作品先后被介绍到海外，在国内外产生了广泛影响。作家出版社以中国文学的主流作……
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 service animated" data-animation="fadeInLeft" data-animation-delay="700">
+                <span class="service-icon center"><i class="icon icon-basic-book-pencil fa-3x"></i></span>
+                <div class="service-desc">
+                    <h4 class="service-title color-scheme">中华书局</h4>
+                    <p class="service-description justify">
+                        中华书局于1912年元旦由陆费逵先生在上海创办，是中国近现代最悠久的出版社之一。百馀年来，中华书局恪守传承文明职责，专注于优秀传统文化出版，在海内外享有盛誉……
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 service animated" data-animation="fadeInRight" data-animation-delay="700">
+                <span class="service-icon center"><i class="icon icon-basic-lightbulb fa-3x"></i></span>
+                <div class="service-desc">
+                    <h4 class="service-title color-scheme">人民出版社</h4>
+                    <p class="service-description justify">
+                        人民出版社在哲学社会科学领域，出版了《世界通史》、《中国通史》、《中国学术通史》、《中国民俗史》、《哲学史家文库》、《中国哲学史新编》、《柏拉图全集》等一大批学术精品著作……
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--=== 视频区 ===-->
+<!--<section id="section-video" class="section-vedio-wrap">-->
+    <!--<div class="section-overlay"></div>-->
+    <!--<div class="container big-video center animated" data-animation="fadeInLeft" data-animation-delay="700">-->
+        <!--<div class="row">-->
+            <!--<div class="col-md-12 section-title">-->
+                <!--<h3>Describe with a video</h3>-->
+            <!--</div>-->
+            <!--<div class="col-md-10 col-md-offset-1 video-content">-->
+                <!--<iframe src="" frameborder="0" width="400" height="240"></iframe>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
+
+<!--=== 美景 ===-->
+<section id="section-screenshots" class="screenshots-wrap">
+    <div class="container screenshots animated" data-animation="fadeInUp" data-animation-delay="1000">
+        <div class="row porfolio-container">
+            <div class="col-md-10 col-md-offset-1 center section-title">
+                <h3>美景</h3>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <div class="screenshot">
+                    <div class="photo-box">
+                        <img src="image/bt/4.jpg">
+                        <div class="photo-overlay">
+                            <h4>梅</h4>
+                        </div>
+                        <span class="photo-zoom">
+                        <a href="javascript:;" class="view-project">
+                            <i class="fa fa-search-plus fa-2x"></i>
+                        </a>
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <div class="screenshot">
+                    <div class="photo-box">
+                        <img src="image/bt/5.jpg">
+                        <div class="photo-overlay">
+                            <h4>月季</h4>
+                        </div>
+                        <span class="photo-zoom">
+                        <a href="javascript:;" class="view-project">
+                            <i class="fa fa-search-plus fa-2x"></i>
+                        </a>
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <div class="screenshot">
+                    <div class="photo-box">
+                        <img src="image/bt/6.jpg">
+                        <div class="photo-overlay">
+                            <h4>梅</h4>
+                        </div>
+                        <span class="photo-zoom">
+                        <a href="javascript:;" class="view-project">
+                            <i class="fa fa-search-plus fa-2x"></i>
+                        </a>
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <div class="screenshot">
+                    <div class="photo-box">
+                        <img src="image/bt/1.jpg">
+                        <div class="photo-overlay">
+                            <h4>书</h4>
+                        </div>
+                        <span class="photo-zoom">
+                        <a href="javascript:;" class="view-project">
+                            <i class="fa fa-search-plus fa-2x"></i>
+                        </a>
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <div class="screenshot">
+                    <div class="photo-box">
+                        <img src="image/bt/2.jpg">
+                        <div class="photo-overlay">
+                            <h4>雪</h4>
+                        </div>
+                        <span class="photo-zoom">
+                        <a href="single-project.html" class="view-project">
+                            <i class="fa fa-search-plus fa-2x"></i>
+                        </a>
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <div class="screenshot">
+                    <div class="photo-box">
+                        <img src="image/bt/3.jpg">
+                        <div class="photo-overlay">
+                            <h4>勤</h4>
+                        </div>
+                        <span class="photo-zoom">
+                        <a href="javascript:;" class="view-project">
+                            <i class="fa fa-search-plus fa-2x"></i>
+                        </a>
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="porfolio-loader" class="center">
+            <div class="loading-circle fa-spin"></div>
+        </div>
+        <div id="porfolio-load"></div>
+        <div class="col-md-12 center back-button">
+            <a href="javascript:;" class="backToProject fancy-button button-line bell btn-col">
+                back
+                <span class="icon">
+                    <i class="fa fa-arrow-left"></i>
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!--=== 名家 ===-->
+<section id="section-testimonails" class="testimonials-wrap">
+    <div class="section-overlay"></div>
+    <div class="container testimonials center animated" data-animation="rollIn" data-animation-delay="500">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="bx-viewport">
+                    <div class="testimonial-slider">
+                        <div class="testimonial">
+                            <p class="comment">
+                                巴金，汉族，四川成都人，原名李尧棠，字芾甘，笔名有王文慧、欧阳镜蓉、黄树辉、余一等。中国作家、翻译家、社会活动家、无党派爱国民主人士。1904年11月生，1921年于成都外语专门学校毕业。1927年至1929年赴法国留学。1929年回到中国后，从事文学创作。1953年9月后先后任中国作家协会副主席，《文艺月报》、《收获》、《上海文学》主编。巴金在文革后撰写的《随想录》，内容朴实、感情真挚，充满着作者的忏悔和自省，巴金因此被誉为“二十世纪中国文学的良心”。1977年至1983年中国作家协会主席、中国文学艺术界联合会副主席，上海市政协副主席。1983年任中国政协副主席，中国作家协会主席。2003年3月在中国政协十届一次会议上当选为第十届全国政协副主席。2003年11月，中国国务院授予巴金“人民作家”称号。2005年10月17日19时06分在上海逝世，享年101岁。</p>
+                            <h4 class="happy-client">巴金以及相关作品</h4>
+                            <span class="client-info">
+                                <img src="image/at/1/2.jpg">
+                                <img src="image/at/1/2.jpg" class="fg">
+                            </span>
+                            <span class="client-info">
+                                <img src="image/at/1/3.jpg">
+                                <img src="image/at/1/3.jpg" class="fg">
+                            </span>
+                            <span class="client-info">
+                                <img src="image/at/1/4.jpg">
+                                <img src="image/at/1/4.jpg" class="fg">
+                            </span>
+                            <span class="client-info">
+                                <img src="image/at/1/5.jpg">
+                                <img src="image/at/1/5.jpg" class="fg">
+                            </span>
+                        </div>
+                        <div class="testimonial">
+                            <p class="comment">列夫·尼古拉耶维奇·托尔斯泰 （俄国批判现实主义作家）19世纪中期俄国批判现实主义作家、思想家，哲学家，代表作有《战争与和平》、《安娜·卡列尼娜》、《复活》等。托尔斯泰出生于贵族家庭，1840年入喀山大学，1847 年退学回故乡在自己领地上作改革农奴制的尝试。1851～1854年在高加索军队中服役并开始写作。1854～1855年参加克里米亚战争。1855年11月到彼得堡进入文学界。 1857年托尔斯泰出国，看到资本主义社会重重矛盾，但找不到消灭社会罪恶的途径，只好呼吁人们按照“永恒的宗教真理”生活。1860～1861年，为考察欧洲教育，托尔斯泰再度出国，结识赫尔岑，听狄更斯演讲，会见普鲁东。1863～1869年托尔斯泰创作了长篇历史小说《战争与和平》。 1873～1877年他经12次修改，完成其第二部里程碑式巨著《安娜·卡列尼娜》。 70年代末，托尔斯泰的世界观发生巨变，写成《忏悔录》（1879一1882）。80年代创作：剧本《黑暗的势力》（1886）、《教育的果实》（1891），中篇小说《魔鬼》（1911）、《伊凡·伊里奇之死》1886）、《克莱采奏鸣曲》（1891）、《哈泽·穆拉特》（1886～1904）；短篇小说《舞会之后》（1903），特别是1889～1899年创作的长篇小说《复活》是他长期思想、艺术探索的总结。
+                            </p>
+                            <h5 class="happy-client">列夫·尼古拉耶维奇·托尔斯泰</h5>
+                            <span class="client-info">
+                                <img src="image/at/2/2.jpg">
+                                <img src="image/at/2/2.jpg" class="fg">
+                            </span>
+                            <span class="client-info">
+                                <img src="image/at/2/3.jpg">
+                                <img src="image/at/2/3.jpg" class="fg">
+                            </span>
+                            <span class="client-info">
+                                <img src="image/at/2/4.jpg">
+                                <img src="image/at/2/4.jpg" class="fg">
+                            </span>
+                        </div>
+                        <div class="testimonial">
+                            <p class="comment">莫言 （中国诺贝尔文学奖获得者） 编辑
+                                莫言，男，原名管谟业，1955年2月17日出生于山东高密，中国作家协会副主席、[1]  2012年诺贝尔文学奖获得者，亦是第一个获得诺贝尔文学奖的中国籍作家。[2]
+                                1981年开始发表作品《春夜雨霏霏》，[3]  1984年因《透明的红萝卜》而一举成名。[4]  1986年，在《人民文学》杂志发表中篇小说《红高粱家族》引起文坛极大轰动。1987年担任电影《红高粱》编剧，该片获得了第38届柏林国际电影节金熊奖。[5]
+                                2011年凭借小说《蛙》荣获茅盾文学奖。2012年获得诺贝尔文学奖，获奖理由是：通过幻觉现实主义将民间故事、历史与当代社会融合在一起。[6-7]
+                                2013年担任网络文学大学名誉校长。[8]  2016年12月，当选中国作家协会第九届全国委员会副主席。[9]  2017年11月，莫言获香港浸会大学荣誉文学博士学位。[10]
+                                莫言因一系列乡土作品充满“怀乡”“怨乡”的复杂情感，被称为“寻根文学”作家。[4]  据不完全统计，莫言的作品至少已经被翻译成40种语言。
+                                2017年12月，凭借作品《天下太平》，获“2017汪曾祺华语小说奖”中的短篇小说奖。[11] </p>
+                            <h5 class="happy-client">莫言</h5>
+                            <span class="client-info">
+                                <img src="image/at/3/2.jpg">
+                                <img src="image/at/3/2.jpg" class="fg">
+                            </span>
+                            <span class="client-info">
+                                <img src="image/at/3/3.jpg">
+                                <img src="image/at/3/3.jpg" class="fg">
+                            </span>
+                            <span class="client-info">
+                                <img src="image/at/3/4.jpg">
+                                <img src="image/at/3/4.jpg" class="fg">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div id="bx-pager" class="client-photos">
+                    <a href="javascript:;" class="photo-hold active">
+                        <span class="photo-bg">
+                            <img src="image/at/1/1.gif">
+                        </span>
+                    </a>
+                    <a href="javascript:;" class="photo-hold">
+                        <span class="photo-bg">
+                            <img src="image/at/2/1.jpg">
+                        </span>
+                    </a>
+                    <a href="javascript:;" class="photo-hold">
+                        <span class="photo-bg">
+                            <img src="image/at/3/1.jpg">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--=== 书城 ===-->
+<section id="section-pricing" class="price-wrap">
+    <div class="container pricing">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 center section-title">
+                <h3>畅销书籍</h3>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="500">
+                <div class="single-pricing best-pricing">
+                    <div class="pricing-head">
+                        <h4 class="pricing-heading color-scheme">总榜</h4>
+                    </div>
+                    <ul class="package-features">
+                        <li class="bt">
+                            <i>01</i>
+                            <em>></em>
+                            <b>中国人的精神</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="中国人的精神">
+                                        <img src="image/s6372637.jpg" alt="中国人的精神">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="中国人的精神">中国人的精神</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;8.6 </span>
+                                        <span class="price">&yen;26.8 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>02</i>
+                            <em>></em>
+                            <b>齐白石国画书签(每套6张)</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="齐白石国画书签(每套6张)">
+                                        <img src="image/s6395518.jpg" alt="齐白石国画书签(每套6张)">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="齐白石国画书签(每套6张)">齐白石国画书签(每套6张)</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;1.7  </span>
+                                        <span class="price">&yen;4.0  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>03</i>
+                            <em>></em>
+                            <b>岁月神偷</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="岁月神偷">
+                                        <img src="image/s5300978.jpg" alt="岁月神偷">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="岁月神偷">岁月神偷</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;8.3  </span>
+                                        <span class="price">&yen;26  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>04</i>
+                            <em>></em>
+                            <b>三国水浒与西游</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="三国水浒与西游">
+                                        <img src="image/s5016543.jpg" alt="三国水浒与西游">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="三国水浒与西游">三国水浒与西游</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;2.4  </span>
+                                        <span class="price">&yen;8  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>05</i>
+                            <em>></em>
+                            <b>孤独无处诉</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="孤独无处诉">
+                                        <img src="image/s5319312.jpg" alt="孤独无处诉">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="孤独无处诉">孤独无处诉</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;9.8 </span>
+                                        <span class="price">&yen;28  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>06</i>
+                            <em>></em>
+                            <b>幽灵候补生-现代推理馆05-赤川次郎02</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="幽灵候补生-现代推理馆05-赤川次郎02">
+                                        <img src="image/s6947251.jpg" alt="幽灵候补生-现代推理馆05-赤川次郎02">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="幽灵候补生-现代推理馆05-赤川次郎02">幽灵候补生-现代推理馆05-赤川次郎02</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;9.6  </span>
+                                        <span class="price">&yen;30  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="sign-up">
+                        <a href="javascript:;" class="fancy-button button-line btn-col vertical">
+                            更多
+                            <span class="icon">
+                                <i class="fa fa-hand-o-up"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="700">
+                <div class="single-pricing best-pricing">
+                    <div class="pricing-head">
+                        <h4 class="pricing-heading color-scheme">社科</h4>
+                    </div>
+                    <ul class="package-features">
+                        <li class="bt">
+                            <i>01</i>
+                            <em>></em>
+                            <b>甲午战争十二讲-温情敬意看历史</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="甲午战争十二讲-温情敬意看历史">
+                                        <img src="image/s6650011.jpg" alt="甲午战争十二讲-温情敬意看历史">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="甲午战争十二讲-温情敬意看历史">甲午战争十二讲-温情敬意看历史</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;12.5 </span>
+                                        <span class="price">&yen;39 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>02</i>
+                            <em>></em>
+                            <b>利维坦</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="利维坦">
+                                        <img src="image/s3068131.jpg" alt="利维坦">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="利维坦">利维坦</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;9  </span>
+                                        <span class="price">&yen;23.8  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>03</i>
+                            <em>></em>
+                            <b>权力的任性：人类历史上最糟糕的决策①</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="权力的任性：人类历史上最糟糕的决策①">
+                                        <img src="image/s6982464.jpg" alt="权力的任性：人类历史上最糟糕的决策①">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="权力的任性：人类历史上最糟糕的决策①">权力的任性：人类历史上最糟糕的决策①</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;21.8  </span>
+                                        <span class="price">&yen;68  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>04</i>
+                            <em>></em>
+                            <b>把黑夜点燃</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="把黑夜点燃">
+                                        <img src="image/s6292450.jpg" alt="把黑夜点燃">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="把黑夜点燃">把黑夜点燃</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;11.5  </span>
+                                        <span class="price">&yen;36  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>05</i>
+                            <em>></em>
+                            <b>贵族的黄昏-孔子和他生活的时代</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="贵族的黄昏-孔子和他生活的时代">
+                                        <img src="image/s4505464.jpg" alt="贵族的黄昏-孔子和他生活的时代">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="贵族的黄昏-孔子和他生活的时代">贵族的黄昏-孔子和他生活的时代</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;6 </span>
+                                        <span class="price">&yen;21  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>06</i>
+                            <em>></em>
+                            <b>袁世凯1916:悬崖上的龙椅</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="袁世凯1916:悬崖上的龙椅">
+                                        <img src="image/s5749567.jpg" alt="袁世凯1916:悬崖上的龙椅">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="袁世凯1916:悬崖上的龙椅">袁世凯1916:悬崖上的龙椅</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;13  </span>
+                                        <span class="price">&yen;42  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="sign-up">
+                        <a href="javascript:;" class="fancy-button button-line btn-col vertical">
+                            更多
+                            <span class="icon">
+                                <i class="fa fa-hand-o-left"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="900">
+                <div class="single-pricing best-pricing">
+                    <div class="pricing-head">
+                        <h4 class="pricing-heading color-scheme">少儿</h4>
+                    </div>
+                    <ul class="package-features">
+                        <li class="bt">
+                            <i>01</i>
+                            <em>></em>
+                            <b>两栋房子</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="两栋房子">
+                                        <img src="image/s5566644.jpg" alt="两栋房子">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="两栋房子">两栋房子</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;4.5 </span>
+                                        <span class="price">&yen;18 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>02</i>
+                            <em>></em>
+                            <b>爱的教育</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="爱的教育">
+                                        <img src="image/s6904636.jpg" alt="爱的教育">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="爱的教育">爱的教育</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;9  </span>
+                                        <span class="price">&yen;23.8  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>03</i>
+                            <em>></em>
+                            <b>化学也疯狂-可怕的科学</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="化学也疯狂-可怕的科学">
+                                        <img src="image/s4461176.jpg" alt="化学也疯狂-可怕的科学">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="化学也疯狂-可怕的科学">化学也疯狂-可怕的科学</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;7.8  </span>
+                                        <span class="price">&yen;26 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>04</i>
+                            <em>></em>
+                            <b>国际大奖小说升级版:苹果树上的外婆</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="国际大奖小说升级版:苹果树上的外婆">
+                                        <img src="image/s7205481.jpg" alt="国际大奖小说升级版:苹果树上的外婆">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="国际大奖小说升级版:苹果树上的外婆">国际大奖小说升级版:苹果树上的外婆</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;7.5  </span>
+                                        <span class="price">&yen;20  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>05</i>
+                            <em>></em>
+                            <b>青蛙合唱团-笑猫日记</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="青蛙合唱团-笑猫日记">
+                                        <img src="image/s6928348.jpg" alt="青蛙合唱团-笑猫日记">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="青蛙合唱团-笑猫日记">青蛙合唱团-笑猫日记</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;8.8 </span>
+                                        <span class="price">&yen;17  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>06</i>
+                            <em>></em>
+                            <b>名家儿童文学精选系列:篮鲸的眼睛</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="名家儿童文学精选系列:篮鲸的眼睛">
+                                        <img src="image/s7191746.jpg" alt="名家儿童文学精选系列:篮鲸的眼睛">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="名家儿童文学精选系列:篮鲸的眼睛">名家儿童文学精选系列:篮鲸的眼睛</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;10.3  </span>
+                                        <span class="price">&yen;16  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="sign-up">
+                        <a href="javascript:;" class="fancy-button button-line btn-col vertical">
+                            更多
+                            <span class="icon">
+                                <i class="fa fa-thumbs-o-up"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="1100">
+                <div class="single-pricing best-pricing">
+                    <div class="pricing-head">
+                        <h4 class="pricing-heading color-scheme">生活</h4>
+                    </div>
+                    <ul class="package-features">
+                        <li class="bt">
+                            <i>01</i>
+                            <em>></em>
+                            <b>餐厅热卖凉菜家常做</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="餐厅热卖凉菜家常做">
+                                        <img src="image/s6252311.jpg" alt="餐厅热卖凉菜家常做">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="餐厅热卖凉菜家常做">餐厅热卖凉菜家常做</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;14.5 </span>
+                                        <span class="price">&yen;39 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>02</i>
+                            <em>></em>
+                            <b>世界地图册</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="世界地图册">
+                                        <img src="image/s5908660.jpg" alt="世界地图册">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="世界地图册">世界地图册</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;8.0  </span>
+                                        <span class="price">&yen;22.8  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>03</i>
+                            <em>></em>
+                            <b>饭否:寻找隐藏的盛宴</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="饭否:寻找隐藏的盛宴">
+                                        <img src="image/s5749541.jpg" alt="饭否:寻找隐藏的盛宴">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="饭否:寻找隐藏的盛宴">饭否:寻找隐藏的盛宴</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;12.2  </span>
+                                        <span class="price">&yen;36.8 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>04</i>
+                            <em>></em>
+                            <b>在遥远的莫斯卡:棕皮手记:2011</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="在遥远的莫斯卡:棕皮手记:2011">
+                                        <img src="image/s5334777.jpg" alt="在遥远的莫斯卡:棕皮手记:2011">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="在遥远的莫斯卡:棕皮手记:2011">在遥远的莫斯卡:棕皮手记:2011</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;8.9  </span>
+                                        <span class="price">&yen;28.9 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>05</i>
+                            <em>></em>
+                            <b>青蛙合唱团-笑猫日记</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="做最健康的自己-健康自励手册(1)">
+                                        <img src="image/s2773482.jpg" alt="做最健康的自己-健康自励手册(1)">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="做最健康的自己-健康自励手册(1)">做最健康的自己-健康自励手册(1)</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;7.0 </span>
+                                        <span class="price">&yen;22  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i>06</i>
+                            <em>></em>
+                            <b>我还没有男朋友-社交时代恋爱秘籍</b>
+                            <div class="bookCur clearfix">
+                                <div class="bpic">
+                                    <a href="javascript:;" target="_blank" title="我还没有男朋友-社交时代恋爱秘籍">
+                                        <img src="image/s7386223.jpg" alt="我还没有男朋友-社交时代恋爱秘籍">
+                                    </a>
+                                </div>
+                                <div class="bDetai">
+                                    <div class="bName">
+                                        <a href="javascript:;" target="_blank" title="我还没有男朋友-社交时代恋爱秘籍">我还没有男朋友-社交时代恋爱秘籍</a>
+                                    </div>
+                                    <div class="bPrice">
+                                        <span class="sellPrice">&yen;27  </span>
+                                        <span class="price">&yen;43.2  </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="sign-up">
+                        <a href="javascript:;" class="fancy-button button-line btn-col vertical">
+                            更多
+                            <span class="icon">
+                                <i class="fa fa-hand-o-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--=== 广告 ===-->
+<section id="section-subscribe" >
+    <div class="container center subscrible">
+        <div class="row">
+            <div class="col-lg-12 clearfix">
+                <div class="col-md-10 col-md-offset-1 center section-title">
+                    <h3>广告</h3>
+                </div>
+                <div class="xzlb">
+                    <div class="col-md-12 center guagao  animated" data-animation="bounceInLeft" data-animation-delay="700">
+                        <div class="col-md-6 col-md-offset-3 center box-3d center">
+                            <div class="gimg box1">
+                                <a href="javascript:;">
+                                    <img src="image/990360.jpg">
+                                </a>
+                            </div>
+                            <div class="gimg box2">
+                                <a href="javascript:;">
+                                    <img src="image/6681_ad990.jpg">
+                                </a>
+                            </div>
+                            <div class="gimg box3">
+                                <a href="javascript:;">
+                                    <img src="image/6682_ad990.jpg">
+                                </a>
+                            </div>
+                            <div class="gimg box4">
+                                <a href="javascript:;">
+                                    <img src="image/6670_ad990.jpg">
+                                </a>
+                            </div>
+                            <div class="gimg box5">
+                                <a href="javascript:;">
+                                    <img src="image/990360_1.jpg">
+                                </a>
+                            </div>
+                            <div class="gimg box6">
+                                <a href="javascript:;">
+                                    <img src="image/66.gif">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-md-offset-3 center box-center">
+                            <div class="gimg">
+                                <a href="javascript:;">
+                                    <img src="image/990360.jpg" id="center-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 center guagao1 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="col-md-10 col-md-offset-1 center">
+                            <ul class="gl clearfix" id="gl">
+                                <li>
+                                    <a href="javascipt:;">
+                                        <img src="image/990360.jpg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascipt:;">
+                                        <img src="image/6681_ad990.jpg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascipt:;">
+                                        <img src="image/6682_ad990.jpg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="image/6670_ad990.jpg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="image/990360_1.jpg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="image/66.gif">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascipt:;">
+                                        <img src="image/990360.jpg">
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ccb center" id="ccb">
+                                <li class="on"></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <div id="prev" class="gobtn prev">
+                                <
+                            </div>
+                            <div id="next" class="gobtn next">
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--=== 页尾 ===-->
+<div id="section-footer" class="footer-wrap">
+    <div class="container footer center">
+        <div class="row">
+            <div class="col-md-12 center footer-hint">
+                <div class="col-md-4 col-sm-6 col-xs-12 center animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="col-md-6 col-sm-6 col-xs-6 center">
+                        <dl>
+                            <dt>新手上路</dt>
+                            <dd>购物流程演示</dd>
+                            <dd>注册用户 更改注册信息</dd>
+                            <dd>购物常见问题</dd>
+                            <dd>关于特价书的常见问题</dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 center">
+                        <dl>
+                            <dt>购买问题</dt>
+                            <dd>订单跟踪</dd>
+                            <dd>付款方式</dd>
+                            <dd>账户余额&nbsp;申请提现</a>
+                            </dd>
+                            <dd>配送方式及费用、范围</dd>
+                            <dd>集团购买</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 center animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="col-md-6 col-sm-6 col-xs-6 center">
+                        <dl>
+                            <dt>售后服务</dt>
+                            <dd>退换货流程</dd>
+                            <dd>投诉与建议</dd>
+                            <dd>在线客服</dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 center">
+                        <dl>
+                            <dt>特色服务</dt>
+                            <dd>会员等级与积分</dd>
+                            <dd>中图书馨卡</dd>
+                            <dd>邮件订阅</dd>
+                            <dd>邀请好友购买返5元</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 zesc center animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="col-md-4 col-sm-4 col-xs-4 center">
+                        <dl class="erwei">
+                            <dt>微信公众号</dt>
+                            <dd><img src="image/weixinerweima.jpg" alt="中图网微信"></dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 center">
+                        <dl class="erwei">
+                            <dt>中图网微博</dt>
+                            <dd><img src="image/weiboerweima.jpg" alt="中图网微博"></dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 center">
+                        <dl class="erwei">
+                            <dt>手机中图</dt>
+                            <dd><img src="image/phoneerweima.jpg" alt="手机中图"></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer-last">
+    <div class="container footer-l center">
+        <div class="row ft-l">
+            <div class="col-md-12 center ft-last">
+                <div class="col-md-6 col-sm-12 ft-last-l center">
+                    <img src="image/chengxin.jpg" alt="诚信认证">
+                    <img src="image/ectrust.gif" alt="电子商务诚信单位认证">
+                </div>
+                <div class="col-md-6 col-sm-12 ft-last-r center">
+                    <p title="经营许可证编号：京ICP备09013606号-3&nbsp;京信市监发[2002]122号海淀公安分局备案编号：1101083394">
+                        经营许可证编号：京ICP备09013606号-3&nbsp;京信市监发[2002]122号海淀公安分局备案编号：1101083394
+                    </p>
+                    <p title="营业执照出版物经营许可证">
+                        营业执照出版物经营许可证
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--==== Js files ====-->
+<!--==== 基本的js文件 ====-->
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrapValidator.min.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+
+
+<!--==== 头部后动态背景图插件 ====-->
+<script type="text/javascript" src="js/jquery.vegas.min.js"></script>
+
+<!--==== Scroll and navigation plugins ====-->
+<!--书籍展开的轮播插件-->
+<script type="text/javascript" src="js/jquery.baraja.js"></script>
+<script type="text/javascript" src="js/jquery.appear.js"></script>
+
+<!--楼层滚动插件-->
+<script type="text/javascript" src="js/jquery.nav.js"></script>
+
+
+<!--其他js文件-->
+<script type="text/javascript" src="js/custom.js"></script>
+
+
+</body>
+</html>
