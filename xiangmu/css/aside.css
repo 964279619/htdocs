@@ -1,0 +1,87 @@
+aside{
+	width: 35px;
+    height: 100%;
+    background: #000000;
+    position: fixed;
+    z-index:999;
+	top:0px;
+    right:0px;
+}
+aside>ul{
+	width: 35px;
+    height: 270px;
+    margin-top: 160px;
+}
+aside a{display: block;}
+aside>ul>li:first-child a{
+	background: url(../../../../xiangmu/images/120.png) no-repeat center center;
+    width: 35px;
+    height: 60px;
+}
+.aside_fengexian{
+	border-top: 1px solid #3E3A39;
+    display: block;
+    width: 35px;
+    padding: 5px 0px;
+}
+aside>ul>li:nth-child(2) a{
+	background: url(../../../../xiangmu/images/121.png) no-repeat center 10px;
+    width: 35px;
+    height: 65px;
+    /*padding-top: 40px;*/
+}
+aside>ul>li:nth-child(2) span{
+	font-size: 10px;
+	width: 10px;
+	margin: -15px 0px 20px 0px;
+	display: block;
+    color: #fff;
+    padding-left: 10px;
+}
+aside>ul>li:nth-child(3) a{
+	background: url(../../../../xiangmu/images/122.png) no-repeat center 14px;
+    width: 35px;
+    height: 60px;
+}
+aside>ul>li:nth-child(4) a{
+	font-family: "微软雅黑";
+    color: #fff;
+    width: 35px;
+    height: 60px;
+    text-align: center;
+    padding-top:10px;
+}
+aside>ul>li:nth-child(4) b{
+	display: block;
+    background: url(../../../../xiangmu/images/123.png) no-repeat center center #4A1467;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    position: absolute;
+    bottom: 0px;
+}
+aside>ul>li:nth-child(4) p{
+	display: none;
+	position: absolute;
+	padding: 5px;
+	background: #fff;
+    right: 35px;
+    bottom: 220px;
+}
+aside>ul>li:nth-child(4) b>a{
+	display: none;
+	background: url(../../../../xiangmu/images/123.png) no-repeat right center #4A1467;
+    width: 95px;
+    padding-left: 19px;
+    text-align: left;
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+aside>ul>li:nth-child(4) b:hover a{display: block;z-index: 100;}
+aside>ul>li:nth-child(4) a:hover p{display: block;}

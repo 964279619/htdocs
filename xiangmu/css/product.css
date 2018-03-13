@@ -1,0 +1,266 @@
+body{
+    font-size: 12px;
+    background:#EFEFEF;
+}
+.header_left{
+    margin-left: -100px;
+}
+.header_right{
+    float: right;
+}
+.nav_div{
+    width: 100%;
+    background: #fff;
+}
+nav{
+    width: 1200px;
+    margin: 0px auto;
+    padding-top: 10px;
+}
+/*搜索分类开始的内容*/
+.center{
+    width: 1200px;
+    margin: 0px auto;
+}
+.search_jieguo{
+    line-height: 40px;
+    padding-left: 10px;
+    margin: 10px 0;
+    background: #fff;
+    color: #666;
+}
+.search_a{
+    color: #0081cc;
+    margin: 0 10px;
+}
+.search_span{
+    text-align: left;
+}
+.pinpai_div{
+    width: 1200px;
+    padding: 10px 25px 0;
+    background: #fff;
+    box-sizing: border-box;
+}
+.pinpaifenlei_div{
+    width: 1200px;
+    border: 0;
+    height: 40px;
+    padding: 5px 0;
+    border-bottom: 1px solid #f5f5f5;
+    box-sizing: border-box;
+}
+.pinpaifenlei_title{
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #666;
+    text-align: right;
+    margin-right: 30px;
+}
+.pinpai_div_ul li{
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.inputprice{
+    width: 45px;
+    height: 20px;
+    padding-left: 3px;
+    border: 1px solid #cccccc;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.inputqueding{
+    width: 45px;
+    height: 20px;
+    border: 1px solid #cccccc;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.shouqidiv{
+    width: 1200px;
+    margin-top: 10px;
+    text-align: center;
+}
+.updown{
+	display:inline-block;
+	width:60px;
+	background:url(../../../../xiangmu/images/04.png)no-repeat 50px;
+}
+/* 筛选人气价格 时间 */
+.shaixuanlist{
+	width: 1160px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 20px;
+    margin: 20px 0 10px;
+    background: #fff;
+}
+.shaixuanlist_left{
+	width:400px;
+}
+.shaixuanlist_left li{
+	width: 86px;
+    padding-left: 5px;
+}
+.shaixuanlist_right{
+	width: 100px;
+    text-align: right;
+    color: #999999;
+}
+.shaixuanlist_right a.current{
+	 background:#EC3E7D;
+    color:#fff;
+}
+.shaixuanlist_right a.disabled{
+	 color:#bfbfbf;
+    background:#f2f2f2;
+    border:1px solid #bfbfbf;
+}
+.buttonpage{
+	padding: 3px 5px;
+    line-height: 12px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+.buttonpagedisable{
+	color: #999999;
+    background: #efefef;
+}
+/* 开始卖商品的列表 */
+.product_bigdiv{
+	width: 1200px;
+    padding: 10px 0 0;
+    background: #fff;
+    overflow: hidden;
+}
+.pro{
+	width: 215px;
+    margin: 0 12px 25px 13px;
+}
+.pro_img{
+	display: block;
+    width: 215px;
+    height: 215px;
+    position: relative;
+}
+.pro_img img{
+	width:215px;
+	height:215px;
+}
+.pro_title{
+	height: 20px;
+    display: block;
+    width: 215px;
+    line-height: 20px;
+    color: #666666;
+    padding-top: 8px;
+    margin-top: 10px;
+    border-top: 1px solid #f0f0f0;
+    overflow: hidden;
+}
+.pro_price{
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.pro_price span{
+	font-family: Arial;
+    font-size: 20px;
+    color: #ec3e7d;
+    padding-right: 2px;
+    display: block;
+}
+.pro_price em{
+	color: #ec3e7d;
+    font-size: 14px;
+    font-family: 'Arial';
+}
+.pro_count{
+	height: 12px;
+    line-height: 12px;
+    color: #a7a7a7;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+.pro_count s{
+    color: #999999;
+    text-decoration: line-through;
+    display: block;
+    float: left;
+    font-family: 'Arial';
+}
+.pro_xs{
+	height: 24px;
+    line-height: 24px;
+    font-family: "微软雅黑";
+    color: #666666;
+}
+.pro_xs span{
+	font-size: inherit;
+    color: inherit;
+}
+.pro_xs a{
+	font-size: inherit;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    height: 24px;
+    line-height: 24px;
+}
+.pager{
+    margin:20px;
+    padding:0px 20px;
+    text-align:center;
+    /*background:linear-gradient(to top , #f5f4f5,#e6e6e5);*/
+    height:40px;
+    line-height:40px;
+}
+.pager a{
+    padding:4px 10px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    margin-right: 5px;
+    color: #2e2e2e;
+    background: #fff;
+}
+.pager a:hover{
+    background:#EC3E7D;
+}
+.pager a.current{
+    background:#EC3E7D;
+    color:#fff;
+}
+.pager a.disabled{
+    color:#bfbfbf;
+    background:#f2f2f2;
+    border:1px solid #bfbfbf;
+}
+.pager input{
+    width: 45px;
+    height: 27px;
+    line-height: 27px;
+    margin: 0 5px;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-family: "微软雅黑";
+    text-align: center;
+}
+.pager button{
+    background: #2E2E2E;
+    width: 66px;
+    height: 27px;
+    display: inline-block;
+    color: #fff;
+    border: none;
+    padding: 0 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+    white-space: nowrap;
+}

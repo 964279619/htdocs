@@ -1,0 +1,40 @@
+(()=>{
+  ajax({
+    type:"get",
+    url:"header.html"
+  }).then(html=>{
+    document.getElementById("aheader")
+      .innerHTML=html;
+  })
+  ajax({
+	type:"get",
+	url:"php/islogin.php",
+	dataType:"json"
+}).then(data=>{
+	if(data.ok==1){//登录成功让登录按钮隐藏
+		document.querySelector("#login")
+			.style.display="none";
+		document.querySelector(".uname")
+			.innerHTML=data.uname;
+		document.querySelector(".header_wenzi05")
+			.style.display="none";
+		document.querySelector(".logoutwenzi") 
+			.style.display="inline-block";
+		document.querySelector(".logoutwenzi")
+		.onclick=e=>{
+		e.preventDefault();
+			ajax({
+				type:"get",
+				url:"php/logout.php"
+			}).then(()=>{
+				location.reload(true); //重新加载刷新页面
+			})
+		}
+	}else{//没登录的话
+		document.querySelector("#login")
+			.style.display="inline-block";
+		document.querySelector(".logoutwenzi")
+			.style.display="none";
+	}
+});
+})();

@@ -1,0 +1,60 @@
+body,div,header,nav,section,aside,p,h1,h2,h3,h4,h5,h6,ul,li,ol{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font:"Microsoft Yahei","宋体";
+}
+img{
+	vertical-align:middle;
+}
+ul{
+	list-style:none;
+}
+input,button{
+	outline:none;
+}
+.clearfloat:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.lf{
+	float: left;
+}
+.rf{
+	float: right;
+}
+.shanchuxian{
+	text-decoration: line-through;
+}
+a{
+	color:#333;
+	font-size:12px;
+	text-decoration:none;
+}
+a:hover{
+	color:#8F1D78;
+}
+.flex{display:flex;}
+.flexjustify{
+	display: flex;
+	justify-content: space-between;
+}
+.phototransform{
+	transition: transform 1s;
+}
+.phototransform:hover{
+	transform:translate(-8px);
+}
+.phototransform2{
+	transform: skewX(-25deg);
+}
+.phototransform2:hover{
+	background:linear-gradient(to left,rgba(255,255,255,0.2)0%,rgba(255,255,255,0.2)50%,rgba(255,255,255,0)100%);
+}
+/* 主体 */
+.main{
+	width:100%;
+	margin:0px auto;
+}

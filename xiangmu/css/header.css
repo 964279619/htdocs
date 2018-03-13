@@ -1,0 +1,81 @@
+#aheader{
+	height:36px;
+	width:100%;
+	margin:auto;
+	line-height:30px;
+	background:#f1f1f1;
+}
+.header_large_div{
+	width:1200px;
+	margin:0px auto;
+}
+.header_left{
+	display: inline-block;
+}
+.header_right{
+	display: inline-block;
+}
+.header_wenzi01{				/*村安商城*/
+	background:url(../../../../xiangmu/images/01.png) no-repeat 105px 4px;
+    padding-bottom:5px;
+	padding-left:135px;
+	display:inline-block;
+}
+.header_photo{
+	width:26px;
+	height:30px;
+	line-height:30px;
+	padding-bottom:5px;
+	box-sizing:border-box;
+}
+.header_text01{
+	cursor:pointer;
+	background:url(../../../../xiangmu/images/02.png) no-repeat 0px 4px;
+	padding-left:35px;
+	display:inline-block;
+}
+.header_line{
+	color:#ddd;
+	margin:0px 6px;
+}
+
+.select_jiantou{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	box-sizing:border-box;
+	position: relative;
+}
+.header_wechat{
+	display: none;
+	position: absolute;
+	z-index: 1100;
+    background: #fff;
+    box-shadow: 3px 3px 10px #444;
+    margin-left: 5px;
+	top: 38px;
+	right: -9px;
+	padding: 10px;
+}
+.header_span:hover .header_jiantouimg{transform: rotate(180deg);}
+.header_span:hover .header_wechat{display: block;}
+.header_wenzi03{						/*  欢迎来到村安商城字体*/
+	margin-left:253px;
+}
+/*.header_line01{*/
+	/*margin-left: 50px;*/
+/*}*/
+.header_wenzi04{
+	display:inline-block;
+	color:#f00;
+	margin-left:25px;
+}
+.header_wenzi05{
+	display:inline-block;
+	color:#f00;
+	margin-right:40px;
+}
+.logoutwenzi{
+	color:#f00;
+	margin-right:40px;
+}

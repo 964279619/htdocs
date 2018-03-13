@@ -1,0 +1,155 @@
+body,div,header,nav,section,aside,p,h1,h2,h3,h4,h5,h6,ul,li,ol{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font:"Microsoft Yahei","宋体";
+	font-size: 12px;
+	background: #EFEFEF;
+    color: #333;;
+}
+img{
+	vertical-align:middle;
+}
+ul{
+	list-style:none;
+}
+input,button{
+	outline:none;
+}
+.clearfloat:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.lf{
+	float: left;
+}
+.rf{
+	float: right;
+}
+.shanchuxian{
+	text-decoration: line-through;
+}
+a{
+	color:#333;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.flex{display:flex;}
+
+.flexjustify{
+	display: flex;
+	justify-content: space-between;
+}
+.flex1{
+	justify-content:space-between;
+}
+.xiangduidingwei{position: relative;}
+/*主体*/
+header{
+	width:100%;
+	height: 130px;
+	background-color: #DB2766;
+}
+header>div:first-child{
+	width: 1000px;
+	margin: 0px auto;
+}
+header h1{
+	width: 325px;
+	margin: auto;
+	margin-top: 30px;
+    height: 70px;
+    background: url(../../../../xiangmu/images/hyzc.png) no-repeat;
+}
+section{
+	width: 1000px;
+	margin: 0px auto;
+}
+section>div:first-child{
+	margin-top: 30px;
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+}
+section>div:first-child a{color:#0088cc;}
+section>div:nth-child(2){
+	width: 1000px;
+	height: 700px;
+	margin: 0px auto;
+	background:#FFFFFF ;
+}
+#registerlargediv{
+	width: 800px;
+	padding: 100px;
+	text-align: center;
+	}
+#registerlargediv>div:first-child{
+	width: 800px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+}
+.txt{
+	text-align:right;
+	line-height: 44px;
+	width: 230px;
+	height: 44px;
+	display:inline-block;
+	font-size: 16px;
+}
+.txt_focus,.textCode:focus{
+border-left: 2px solid #000000 !important;border-top:2px solid #000000 !important;}
+#registerlargediv input{
+	width: 320px;
+	height: 44px;
+	border: solid 1px #ddd;
+}
+#registerdiv>form>div{margin-top: 25px;}
+#registerbtn input{
+	color:#ffffff;
+	background:#CA5252;
+	font-size:16px;
+	margin-left: -20px;
+	border-radius: 3px;
+}
+#registerdiv span,#registerdiv span+div{
+	color:#666666;
+	text-align: center;
+	margin: 15px 0px 0px 10px;
+	margin-left: 20px;
+	white-space: nowrap;
+}
+.textCode{
+	width: 170px!important;
+}
+.imgCode{margin-left: 53px;}
+.imgCode:hover{cursor:pointer;}
+.vali_info{
+	display: none;
+}
+.btndiv input{
+	cursor:pointer;
+}
+.vali_success,.vali_fail{
+	background-repeat:no-repeat;
+	background-position:left center;
+	display:block;
+}
+.vali_success{
+	background-image:url("../../../../xiangmu/images/ok.png");
+	width:200px;
+	height:16px;
+	margin-top: 15px;
+}
+
+.vali_fail{
+    background-image:url("../../../../xiangmu/images/err.png");
+    color: red;
+    width: 200px;
+	height:16px;
+	margin-top: 15px;
+}

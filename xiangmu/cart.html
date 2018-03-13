@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <div class="main">
+        <aside></aside>
+        <div id="aheader"></div>
+        <div class="header_cart clearfloat">
+            <div class="state_div">
+                <a href="index.html">
+                    <img src="images/06.png" alt="">
+                </a>
+            </div>
+            <!--右边的列表-->
+            <ul>
+                <li class="current">
+                    <div class="header_cart_state_num no">
+                        <span>1</span>
+                    </div>
+                    <span>我的购物车</span>
+                </li>
+                <li class="to_line"></li>
+                <li>
+                    <div class="header_cart_state_num">
+                        <span>2</span>
+                    </div>
+                    <span>确认订单</span>
+                </li>
+                <li class="to_line"></li>
+                <li>
+                    <div class="header_cart_state_num">
+                        <span>3</span>
+                    </div>
+                    <span>成功提交订单</span>
+                </li>
+            </ul>
+        </div>
+        <!--下方的购物车-->
+        <div class="cart_zs">
+            <div class="cart_zs_center">
+                <h2 class="cart_title">购物车</h2>
+                <a href="javascript:history.go(-1)" class="rf ">返回继续购物</a>
+            </div>
+        </div>
+        <!--购物车主体-->
+        <div class="centercart">
+            <div class="centercart_top flex">
+                <div class="check-top">
+                    <img src="img/cart/product_normal.png" alt=""> 全选
+                </div>
+                <div class="product-top">商品</div>
+                <div class="price-top">单价(元)</div>
+                <div class="num-top">数量</div>
+                <div class="total-top">金额</div>
+                <div class="del-top">操作</div>
+            </div>
+            <div class="centercart_body"></div>
+            <div class="foot">
+                <div class="base ">
+                    <div class="check-top all">
+                            <img src="img/cart/product_normal.png" alt="">全选
+                    </div>
+
+                </div>
+                <div class="go-price">
+                    <div class="foot-selected">已选<span class="totalOne color">0</span>件商品</div>
+                    <div class="foot-tol">
+                        <span>合计(不含运费)：</span>
+                        <span class="foot-price">0.00</span>
+                        <span class="foot-desc">元</span>
+                    </div>
+                    <div class="foot-cash">去结算</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/ajax.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/aside.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

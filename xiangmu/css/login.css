@@ -1,0 +1,155 @@
+body,div,header,nav,section,aside,p,h1,h2,h3,h4,h5,h6,ul,li,ol{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font:"Microsoft Yahei","宋体";
+	font-size: 12px;
+}
+img{
+	vertical-align:middle;
+}
+ul{
+	list-style:none;
+}
+input,button{
+	outline:none;
+}
+.clearfloat:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.lf{
+	float: left;
+}
+.rf{
+	float: right;
+}
+.shanchuxian{
+	text-decoration: line-through;
+}
+a{
+	color:#333;
+	font-size:12px;
+	text-decoration:none;
+}
+a:hover{color:#8F1D78;}
+.flex{display:flex;}
+
+.flexjustify{
+	display: flex;
+	justify-content: space-between;
+}
+/*主体*/
+header{
+	width:100%;
+	height: 100px;
+	background-color: #DB2766;
+}
+header>div:first-child{
+	width: 1000px;
+	margin: 0px auto;
+}
+header h1{
+	width: 325px;
+	margin: auto;
+	margin-top: 30px;
+    height: 70px;
+    background: url(../../../../xiangmu/images/hydl.png) no-repeat;
+}
+nav{
+	width: 1000px;
+	margin: 0px auto;
+}
+nav div{
+	margin-top: 70px;
+	width:580px;
+	height:380px;
+}
+.valiTip{
+	display: none;
+	background:lightyellow;
+	color:red;
+	width:200px;
+	height:35px;
+	line-height: 35px;
+	margin-top: 35px;
+}
+nav>div:nth-child(2){
+	width: 356px;
+	height: 342px;
+}
+#loginrfdiv{width:356px;}
+#loginrfdiv p{
+	width: 356px;
+	height: 36px;
+}
+.login_uname{margin-top:29px;}
+.login_upwd{margin-top: 35px;}
+.login_hezuo{margin-top: 34px;}
+#loginrfp01>span:nth-child(2){
+	display:block;
+	text-align: right;
+	height: 36px;
+	line-height: 36px;
+	font-weight:500;
+}
+#loginrfp01 img{
+	position: relative;
+	top:35px;
+}
+#loginrfp01>span:nth-child(2) a{
+	color: #FF0000;
+	margin-left: 10px;
+}
+#loginrfp01>span:nth-child(2) a:hover{
+	color:#8F1D78;
+}
+#loginrfdiv p:last-child img{margin-right: 10px;}
+#txtName,#txtPwd{
+	width: 356px;
+	height: 50px;
+}
+#autoLogin{
+	width:13px;
+	height: 13px;
+}
+button{width: 356px;
+    	height: 50px;
+    	border: none;
+    	border-radius: 4px;
+    	color: #FFFFFF;
+    	text-align: center;
+    	font-size: 17px;
+    	background:#DA0D5C;
+    	cursor: pointer;
+}
+.hezuospan{
+	color: #666;
+    font-size: 14px;
+}
+/*底部*/
+.login_buttom_div{
+	width: 100%;
+	background: #fff;
+	margin-top: 60px;
+	border-top: 1px solid #bdbdbd;
+}
+.login_center_div{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 24px 0;
+	text-align: center;
+}
+.login_center_div p{
+	width: 1200px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #999999;
+}
+.login_center_div a{
+	color: #666;
+	margin: 0 8px;
+}

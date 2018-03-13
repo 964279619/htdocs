@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/register.css"/>
+	 <script src="js/register.js"></script>
+ </head>
+ <body>
+	<div class="main">
+		<header>
+			<div>
+				<table></table>
+				<h1></h1>
+			</div>
+		</header>
+		<section>
+			<div id="">
+				<span>我已经注册，马上<a href="login.html">登录 &gt;</a></span>
+			</div>
+			<div>
+				<div id="registerlargediv">
+					<div>村安商城注册</div>
+					<div id="registerdiv">
+						<form action="php/register.php">
+							<div class="flex unamediv">
+								<p class="txt">账号：</p>
+								<p><input type="text" name="uname"></p>
+								<span class="vali_info">10个字母、数字或下划线以内的组合</span>
+								<div class="vali_info"></div>
+							</div>
+							<div class="flex upwddiv">
+								<p class="txt">密码：</p>
+								<p><input type="password" name="upwd"></p>
+								<span class="vali_info">6~9位数字</span>
+								<div class="vali_info"></div>
+							</div>
+							<div class="flex cpwddiv">
+								<p class="txt">确认密码：</p>
+								<p><input type="password" name="cpwd" ></p>
+								<span class="vali_info">两次密码必须一致</span>
+								<div class="vali_info"></div>
+							</div>
+							<div class="flex phonediv">
+								<p class="txt">手机：</p>
+								<p><input type="text" name="phone"></p>
+								<span class="vali_info ">请输入合法的手机号码</span>
+								<div class="vali_info "></div>
+							</div>
+							<div  class="flex imgdiv">
+								<p class="txt">验证码：</p>
+								<input type="text" class="textCode" name="code">
+								<img src="php/getCode.php" title="看不清，点击换一张" class="imgCode" id="yzm">
+								<span class="vali_info">验证码不能为空</span>
+								<div class="vali_info "></div>
+							</div>
+							<div id="registerbtn"  class="btndiv">
+								<input type="button" value="注&nbsp;&nbsp;册">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/register.js"></script>
+ </body>
+</html>

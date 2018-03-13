@@ -1,0 +1,9 @@
+(()=>{
+  ajax({
+    type:"get",
+    url:"aside.html"
+  }).then(html=>{
+    document.querySelector("aside")
+      .innerHTML=html;
+  })
+})();

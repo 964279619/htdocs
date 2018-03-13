@@ -1,0 +1,250 @@
+.header_cart{
+    width: 1000px;
+    margin: 0 auto;
+    height: 116px;
+}
+.state_div{
+    float: left;
+    width: 326px;
+    height: 70px;
+    padding-top: 23px;
+}
+.state_div a img{
+    display: block;
+    width: 326px;
+    height: 70px;
+}
+.header_cart li{
+    position: relative;
+    float: left;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 27px;
+}
+.header_cart_state_num{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    color: #fff;
+    font-style: italic;
+    font-family: Arial;
+}
+.header_cart ul{
+    height: 50px;
+    float: right;
+    margin-top: 45px;
+}
+.header_cart_state_num span{
+    position: absolute;
+    top: -12px;
+    left: -4px;
+}
+.header_cart li.current{
+    color: #ff4883;
+}
+.header_cart li.current .no{
+    border-color: #ff4883;
+}
+.to_line{
+    width: 61px;
+    height: 2px;
+    background-color: #ccc;
+    margin: 9px 15px;
+}
+/*购物车和返回购物*/
+.cart_zs{
+    width: 100%;
+    height: 38px;
+    border-bottom: 2px solid #db2766;
+}
+.cart_zs_center{
+    width: 1000px;
+    height: 38px;
+    margin: 0 auto;
+}
+.cart_title{
+    display: inline-block;
+    width: 114px;
+    height: 28px;
+    background: url(../../../../xiangmu/images/cart.png) no-repeat;
+    font-weight: normal;
+    font-size: 20px;
+    color: #DB2766;
+    padding-left: 40px;
+}
+.cart_zs_center a{
+    width: 120px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border: 1px solid #cecbce;
+    color: #005ea7;
+}
+/*购物车主体*/
+.centercart{
+    width: 1000px;
+    margin: 0 auto;
+    font: 12px "simhei",Arial,Helvetica,sans-serif;
+}
+.centercart_top{
+    height: 43px;
+    line-height: 43px;
+    margin-bottom: 16px;
+    background: #f3f3f3;
+    text-align: center;
+    color: #666666;
+}
+.check-top{
+    width: 62px;
+    line-height: 43px;
+}
+.product-top{
+    width: 410px;
+    line-height: 43px;
+}
+.price-top{
+    width: 142px;
+    line-height: 43px;
+}
+.num-top{
+    width: 140px;
+    line-height: 43px;
+}
+.total-top{
+    width: 120px;
+    line-height: 43px;
+}
+.del-top{
+    width: 116px;
+    line-height: 43px;
+}
+/*加载的商品样式*/
+.imfor{
+    height:115px;
+    margin-bottom:10px;
+    background:#fff;
+    border:1px solid #e8e8e8;
+    display:flex;
+    position:relative;
+}
+.check{
+    width:105px;
+}
+.check img{
+    position:absolute;
+    top:49px;
+    left:27px;
+}
+.product{
+    width:370px;
+    margin-top:18px;
+}
+.product>a{
+    float:left;
+    margin-right:5px;
+}
+.product p.col{
+    margin-top:10px;
+}
+.price{
+    text-align:center;
+    width:142px;
+}
+.product~div{
+    box-sizing:border-box;
+    border-left:1px solid #ddd;
+}
+.price p.price-desc{
+    margin-top:40px;
+    font-weight:bold;
+    color: #ff4883;
+    box-sizing:border-box;
+}
+.num{
+    width:140px;
+}
+.num span{
+    display:inline-block;
+    width:24px;
+    height:24px;
+    border:1px solid #bbb;
+    background:#e8e8e8;
+    text-align:center;
+    line-height:24px;
+    color:#444;
+    float:left;
+    margin-top:43px;
+}
+.num span.reduce{
+    margin-left:32px;
+}
+.num input{
+    width:17px;
+    height:22px;
+    padding-left:9px;
+    font:12px simhei;
+    border:1px solid #bbb;
+    border-left:none;
+    border-right:none;
+    float:left;
+    margin-top:43px;
+}
+.total-price{
+    text-align:center;
+    line-height:115px;
+    width:120px;
+}
+.del_div{
+    width:116px;
+    text-align:center;
+    line-height:115px;
+}
+/*下面的全选和删除*/
+.foot{
+    margin-top:30px;
+    height:42px;
+    line-height:42px;
+    background:linear-gradient(to bottom,#f5f4f5,#e6e6e5);
+    display:flex;
+    justify-content:space-between;
+}
+.foot>div{
+    display:flex;
+}
+.foot div.all{
+    width:80px;
+    margin-left:10px;
+    cursor:pointer;
+}
+.foot div.foot-selected{
+    margin-right:15px;
+}
+.foot span.totalOne{
+    font-size:14px;
+    font-weight:bold;
+    margin:0 5px;
+}
+.foot-tol{
+    margin-right:15px;
+}
+.foot-tol span+span{
+    color: #ff4883;
+    font-size:16px;
+    font-weight:bold;
+}
+.foot-cash{
+    cursor:pointer;
+    width:140px;
+    height:42px;
+    line-height:42px;
+    background: #ff4883;
+    text-align:center;
+    font-size:18px;
+    color:#fff;
+    border-radius:2px;
+}
